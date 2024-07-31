@@ -5,12 +5,13 @@
     <title>Niranjan Samal Portfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
-    
+
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -18,20 +19,30 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/ionicons.min.css">
-    
+
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/style2.css">
 
 
-	
+<style>
+	 
+        .social-media a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #83b4ff;
+        }
+        .social-media a:hover {
+            color: #fff;
+        }
+</style>
 
 
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-	  
-	  
+
+
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
 	      <a class="navbar-brand" href="index.html">Niranjan Samal</a>
@@ -55,17 +66,22 @@
             <div class="text-content">
                 <h1 class="mb-4 mt-3">Hi,</h1>
                 <h1 class="mb-4 mt-3">I'm <span>Niranjan</span></h1>
-                
+
                 <!-- Element to contain animated typing -->
                 <span id="typing-animation"></span>
 
                 <script>
                     // Initialize the typing animation
                     const typingAnimationElement = document.getElementById('typing-animation');
-                    
+					// // Create an array of typing text
+					// const typingTexts = [
+					// 				'Engineer  ',
+					// 				'YouTuber  ',
+					// 				'Teacher   ',
+					// 				];
                     // Create an array of typing text
                     const typingTexts = ['Software Developer '];
-                    
+
                     // Create a function to display the typing animation for a given text
                     function playTypingAnimation(text) {
                         // Loop through each character and add it to the element
@@ -74,21 +90,30 @@
                                 typingAnimationElement.textContent += text[i];
                             }, i * 200); // Increase the delay to slow down the typing animation
                         }
-                        
+
                         // Once the animation is complete, reset the text and start over
                         setTimeout(() => {
                             typingAnimationElement.textContent = '';
                             playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
                         }, text.length * 200);
                     }
-                    
+
                     // Start the typing animation loop
                     playTypingAnimation(typingTexts[0]);
                 </script>
+				<!-- <br>
+				<br>
+				<h2>A Senior Data Analyst</h2> -->
 
+				<div class="social-media">
+					<a href="https://www.facebook.com/De.Coder123"><i class="fab fa-facebook fa-2x"></i></a>
+					<a href="https://www.instagram.com/de_coder07/"><i class="fab fa-instagram fa-2x"></i></a>
+					<a href="https://www.linkedin.com/in/niranjan-samal/"><i class="fab fa-linkedin fa-2x"></i></a>
+					<a href="https://github.com/niranjansamal123"><i class="fab fa-github fa-2x"></i></a>
+				</div>
                 <p>
-                    <a href="https://www.linkedin.com/in/niranjan-samal/" class="btn btn-primary py-3 px-4">LinkedIn</a> 
-                    <a href="https://github.com/niranjansamal123" class="btn btn-white btn-outline-white py-3 px-4">My works</a>
+                    <a href="resume/Niranjan-samal-Resume.pdf"  class="btn btn-primary py-3 px-4">Download CV</a>
+                    <!-- <a href="https://github.com/niranjansamal123" class="btn btn-white btn-outline-white py-3 px-4">My works</a> -->
                 </p>
             </div>
             <div class="image-content">
@@ -131,25 +156,25 @@
 										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
 											aria-valuemax="100"></div>
 									</div>
-									
+
 									<div class="skillsdata"><span>Asp .Net MVC</span> <span class="pull-right">85%</span></div>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
 											aria-valuemax="100"></div>
 									</div>
-									
+
 									<div class="skillsdata"><span>Asp. Net CORE</span> <span class="pull-right">90%</span></div>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
 											aria-valuemax="100"></div>
 									</div>
-									
+
 									<div class="skillsdata"><span>HTML, CSS, JavaScript</span> <span class="pull-right">85%</span></div>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
 											aria-valuemax="100"></div>
 									</div>
-									
+
 									<div class="skillsdata"><span>SQL</span> <span class="pull-right">80%</span></div>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
@@ -159,14 +184,14 @@
 							</div>
 						</div>
 					</div>
-					
+
 					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
 						<div class="row justify-content-start pb-3">
 							<div class="col-md-12 heading-section ftco-animate">
-								
+
 								<h1 class="big">About</h1>
 								<h2 class="mb-4">About Me</h2>
-								
+
 								<p>Enthusiastic and detail-oriented MCA graduate with a solid foundation in full-stack development. Experienced in .NET, C#, HTML, CSS, and JavaScript, with coursework in data structures, algorithms, and database management. Quick learner with strong teamwork and communication skills, seeking a Full Stack .NET Developer role to contribute technical skills and creativity in a dynamic environment.</p>
 								<ul class="about-info mt-4 px-md-0 px-2">
 									<li class="d-flex"><span>Profile:</span> <span>Full Stack .NET Developer</span></li>
@@ -175,7 +200,7 @@
 									<li class="d-flex"><span>IDE</span> <span>Visual Studio 2022, Visual Studio Code &amp; SQL Server Management Studio</span></li>
 									<li class="d-flex"><span>Other Skills:</span> <span>Asp .Net Framework, Web Api, EntityFramework, ADO.Net, Angular, Bootstrap, jquery, Ajax</span></li>
 									<li class="d-flex"><span>Interest:</span> <span>Traveling, Travel Photography &amp; Teaching</span></li>
-									
+
 								</ul>
 							</div>
 						</div>
@@ -198,7 +223,7 @@
 
 
 
-	
+
     <section class="ftco-section ftco-no-pb" id="resume-section">
     	<div class="container">
     		<div class="row justify-content-center pb-5">
@@ -214,7 +239,7 @@
 			<div class="underline"></div>
 		</div>
 		<br>
-		
+
 		<div class="row">
 				<div class="col-md-6">
 					<div class="resume-wrap ftco-animate">
@@ -236,7 +261,7 @@
 						<span class="date">2018-2021</span>
 						<h2>Asp.Net Developer</h2>
 						<span class="position">iQuanti</span>
-						<p class="mt-4">iQuanti is a data-driven digital marketing analytics and solutions company, helps top 100 global brands. 
+						<p class="mt-4">iQuanti is a data-driven digital marketing analytics and solutions company, helps top 100 global brands.
 							<ul>
 								<li>Performed in-depth market research and analysis to create online pages. Resulted in ~100% website growth and 30% increase in conversion rate YoY.</li>
 								<li>Delivered multiple training and mentorship sessions on analytical tools like SQL, MS Excel, Power BI, Tableau and Python.</li>
@@ -256,7 +281,7 @@
 			<div class="underline"></div>
 		</div>
 		<br>
-		
+
 			<div class="row">
     			<div class="col-md-6">
     				<div class="resume-wrap ftco-animate">
@@ -303,7 +328,7 @@
     	</div>
     </section>
 
-   
+
 
     <section class="ftco-section" id="project-section">
       <div class="container">
@@ -320,7 +345,7 @@
 				<a href="https://github.com/niranjansamal123/Hospital-Management-System" class="block-20 zoom-effect" style="background-image: url('images/Hospital.jpg');">
 				</a>
 				<div class="text mt-3 float-right d-block">
-  
+
 				  <h3 class="heading"><a href="https://github.com/niranjansamal123/Hospital-Management-System">Hospital Management System using Asp.Net MVC</a></h3>
 				  <p>The system streamlines hospital operations and improves healthcare service quality. It includes three primary roles: Admin, Doctor, and Patient, each with tailored functionalities.</p>
 				</div>
@@ -357,7 +382,7 @@
 					<a href="https://github.com/niranjansamal123/LibraryManagementMVC" class="block-20 zoom-effect" style="background-image: url('images/Library.jpg');">
 					</a>
 					<div class="text mt-3 float-right d-block">
-						
+
 						<h3 class="heading"><a href="https://github.com/niranjansamal123/LibraryManagementMVC">Library Management System using Asp.Net MVC</a></h3>
 						<p>The .NET and SQL-based Library Management system is a comprehensive solution for efficiently organizing and managing library resources.</p>
 					</div>
@@ -368,18 +393,18 @@
 				<a href="https://github.com/niranjansamal123/NotepadProject" class="block-20 zoom-effect" style="background-image: url('images/Notepad.jpeg');">
 				</a>
 				<div class="text mt-3 float-right d-block">
-	
+
 				  <h3 class="heading"><a href="https://github.com/niranjansamal123/NotepadProject">Notepad using .Net Windows Application</a></h3>
 				  <p>The Notepad app in .NET is a user-friendly text editor for plain text files. It offers essential editing tools, customization options, file management, word count, and line number features.</p>
 				</div>
 			  </div>
-			</div>  
+			</div>
 			<div class="col-md-4 d-flex ftco-animate">
 				<div class="blog-entry justify-content-end">
 				<a href="https://github.com/niranjansamal123/Online-Calculator" class="block-20 zoom-effect" style="background-image: url('images/Calculator.jpeg');">
 				</a>
 				<div class="text mt-3 float-right d-block">
-  
+
 				  <h3 class="heading"><a href="https://github.com/niranjansamal123/Online-Calculator">Calculator using Html, CSS, JavaScript</a></h3>
 				  <p>The online calculator, crafted with HTML, CSS, and JavaScript, is a versatile tool designed for quick and accurate computations.</p>
 				</div>
@@ -427,7 +452,7 @@
           </div>
         </div>
       </div>
-	
+
 	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
 			<!-- <div class="container"> -->
 				<div class="row justify-content-center">
@@ -470,7 +495,7 @@
 				<a href="tel://9337162929" class="icon d-flex align-items-center justify-content-center">
 					<span class="icon-phone2"></span>
 				</a>
-				
+
           		<h3 class="mb-4">Contact Number</h3>
 	            <p><a href="tel://9337162929">+91 9337162929</a></p>
 	          </div>
@@ -506,7 +531,7 @@
 				<br>
 					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
 					  <!-- <li class="ftco-animate normal-txt">Find me on  </li> -->
-					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/niranjan-samal/"><span class="icon-linkedin"></span></a></li>  
+					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/niranjan-samal/"><span class="icon-linkedin"></span></a></li>
 					  <li class="ftco-animate"><a href="https://github.com/niranjansamal123"><span class="icon-github"></span></a></li>
 					  <li class="ftco-animate"><a href="https://www.facebook.com/De.Coder123"><span class="icon-facebook"></span></a></li>
 				      <li class="ftco-animate"><a href="https://www.instagram.com/de_coder07/"><span class="icon-instagram"></span></a></li>
@@ -518,13 +543,13 @@
  </section>
 
 
- 
-	
+
+
     <footer class="ftco-footer ftco-section">
 		<div class="container">
 		  <div class="row">
 			<div class="col-md-12 text-center">
-  
+
 			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
@@ -550,8 +575,8 @@
   <script src="js/aos.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-  
+
   <script src="js/main.js"></script>
-    
+
   </body>
 </html>

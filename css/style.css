@@ -10658,7 +10658,7 @@ a.text-dark:focus {
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background: #000000;
+  background: #111111;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
@@ -10713,7 +10713,7 @@ h5,
 }
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
-    background: #000000 !important;
+    background: #111111 !important;
     position: relative;
     top: 0;
     padding-top: 0;
@@ -10867,7 +10867,7 @@ h5,
   left: 0;
   top: 0;
   margin-top: -130px;
-  background: #000000 !important;
+  background: #111111 !important;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   padding: 0 15px;
@@ -10925,7 +10925,7 @@ h5,
   letter-spacing: 0.1em;
 }
 .ftco-navbar-light.scrolled .nav-link {
-  color: #000000 !important;
+  color: #111111 !important;
 }
 .ftco-navbar-light.scrolled .nav-link.active {
   color: #83b4ff !important;
@@ -11050,7 +11050,7 @@ h5,
   bottom: 0;
   left: 0;
   right: 0;
-  background: #000000;
+  background: #111111;
   opacity: 0;
 }
 .owl-carousel.home-slider .slider-item .slider-text {
@@ -11073,7 +11073,7 @@ h5,
   bottom: 0;
   left: 0;
   right: 0;
-  background: #000000;
+  background: #111111;
   opacity: 0;
 }
 @media (max-width: 1199.98px) {
@@ -11138,7 +11138,7 @@ h5,
   }
 }
 .owl-carousel.home-slider .slider-item .slider-text .subheading {
-  color: #000000;
+  color: #111111;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 3px;
@@ -11225,7 +11225,7 @@ h5,
 .owl-carousel.home-slider .owl-nav .owl-next span:before {
   font-size: 20px;
   margin-top: 7px;
-  color: #000000;
+  color: #111111;
 }
 .owl-carousel.home-slider .owl-nav .owl-prev {
   top: 0 !important;
@@ -11238,7 +11238,7 @@ h5,
 }
 .owl-carousel.home-slider .owl-nav .owl-prev:hover,
 .owl-carousel.home-slider .owl-nav .owl-prev:focus {
-  background: #000000 !important;
+  background: #111111 !important;
   outline: none !important;
 }
 .owl-carousel.home-slider .owl-nav .owl-prev:hover span:before,
@@ -11258,7 +11258,7 @@ h5,
 }
 .owl-carousel.home-slider .owl-nav .owl-next:hover,
 .owl-carousel.home-slider .owl-nav .owl-next:focus {
-  background: #000000 !important;
+  background: #111111 !important;
   outline: none !important;
 }
 .owl-carousel.home-slider .owl-nav .owl-next:hover span:before,
@@ -11305,7 +11305,7 @@ h5,
   bottom: 0;
   content: "";
   opacity: 0;
-  background: #000000;
+  background: #111111;
 }
 
 .slider-text h1 {
@@ -11330,7 +11330,7 @@ h5,
   font-weight: 700;
 }
 .slider-text p strong a {
-  color: #000000;
+  color: #111111;
 }
 
 .slider-text .breadcrumbs {
@@ -11400,12 +11400,12 @@ h5,
 .btn.btn-primary {
   background: #83b4ff;
   border: 1px solid #83b4ff !important;
-  color: #000000 !important;
+  color: #111111 !important;
 }
 .btn.btn-primary:hover {
   border: 1px solid #83b4ff !important;
   background: #83b4ff !important;
-  color: #000000 !important;
+  color: #111111 !important;
 }
 .btn.btn-primary.btn-outline-primary {
   border: 2px solid #83b4ff !important;
@@ -11440,10 +11440,10 @@ h5,
 .btn.btn-white {
   background: #fff !important;
   border: 1px solid #fff !important;
-  color: #000000 !important;
+  color: #111111 !important;
 }
 .btn.btn-white:hover {
-  border: 1px solid #000000;
+  border: 1px solid #111111;
   background: #fff !important;
   color: #fff;
 }
@@ -11586,10 +11586,10 @@ h5,
   color: #fff;
 }
 .services-1:hover h3 {
-  color: #000000;
+  color: #111111;
 }
 .services-1:hover h3:after {
-  background: #000000;
+  background: #111111;
 }
 
 .progress-wrap {
@@ -11616,7 +11616,7 @@ h5,
   box-shadow: none;
   font-size: 12px;
   line-height: 1.2;
-  color: #000000;
+  color: #111111;
   font-weight: 600;
   position: relative;
   overflow: visible;
@@ -11793,7 +11793,7 @@ h5,
 .form-control {
   height: 52px !important;
   background: #fff !important;
-  color: #000000 !important;
+  color: #111111 !important;
   font-size: 18px;
   border-radius: 5px;
   -webkit-box-shadow: none !important;
@@ -11801,7 +11801,7 @@ h5,
 }
 .form-control:focus,
 .form-control:active {
-  border-color: #000000;
+  border-color: #111111;
 }
 
 textarea.form-control {
@@ -11862,7 +11862,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  background: #000000;
+  background: #111111;
   padding: 7em 0;
   z-index: 0;
 }
@@ -11906,7 +11906,7 @@ textarea.form-control {
 .ftco-footer .ftco-heading-2 {
   font-size: 17px;
   font-weight: 400;
-  color: #000000;
+  color: #111111;
 }
 
 .ftco-footer-social li {
@@ -12530,7 +12530,7 @@ textarea.form-control {
 }
 .categories li.active a,
 .sidelink li.active a {
-  color: #000000;
+  color: #111111;
   font-style: italic;
 }
 
